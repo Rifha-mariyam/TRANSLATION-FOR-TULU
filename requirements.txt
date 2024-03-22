@@ -10,4 +10,4 @@ sounddevice==0.4.6
 soundfile==0.12.1
 streamlit==1.32.2
 tensorflow==2.16.1
-tensorflow_intel==2.16.1
+
