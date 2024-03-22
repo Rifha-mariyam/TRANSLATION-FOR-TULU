@@ -7,8 +7,14 @@ from keras.preprocessing import image
 from tensorflow.keras.applications.mobilenet import preprocess_input
 from gtts import gTTS
 import os
+import os
+os.environ["PATH"] += os.pathsep + "C:/Users/User/Downloads/precompiled-portaudio-windows-master/precompiled-portaudio-windows-master/portaudio-r1891-build/portaudio-r1891-build/lib/x64/ReleaseMinDependency/portaudio_x64.dll"
+import sounddevice as sd
+
 import sounddevice as sd
 import soundfile as sf
+import gdown
+from keras.models import load_model
 import gdown
 from keras.models import load_model
 
@@ -156,6 +162,10 @@ if uploaded_file is not None:
         # Display results
         st.audio("output_speech.mp3", format='audio/mp3')
         st.success(f"The predicted label is: {max_label}")
+
+
+
+
 
 
 
