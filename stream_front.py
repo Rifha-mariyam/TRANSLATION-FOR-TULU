@@ -8,7 +8,7 @@ from tensorflow.keras.applications.mobilenet import preprocess_input
 from gtts import gTTS
 import os
 import os
-os.environ["PATH"] += os.pathsep + "C:/Users/User/Downloads/precompiled-portaudio-windows-master/precompiled-portaudio-windows-master/portaudio-r1891-build/portaudio-r1891-build/lib/x64/ReleaseMinDependency/portaudio_x64.dll"
+os.environ["PATH"] += os.pathsep + "C:/Users/User/AppData/Roaming/Python/Python312/site-packages/_sounddevice_data/portaudio-binaries/portaudio_x64.dll"
 import sounddevice as sd
 
 import sounddevice as sd
