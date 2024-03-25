@@ -11,6 +11,5 @@ sounddevice==0.4.6
 soundfile==0.12.1
 streamlit==1.32.2
 tensorflow==2.16.1
-pip install pyaudio --global-option=build_ext --global-option="-I" --global-option="C:\Users\User\Downloads\precompiled-portaudio-windows-master\precompiled-portaudio-windows-master\portaudio-r1891-build\portaudio-r1891-build\include"
 
 
